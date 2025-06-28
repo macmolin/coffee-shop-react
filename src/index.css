@@ -86,6 +86,12 @@ img {
   height: 100px;
 }
 
+.fotos img {
+
+  width: auto;
+  height: 350px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

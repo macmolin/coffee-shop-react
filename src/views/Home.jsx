@@ -12,6 +12,11 @@ export default function Home() {
         <p className="">
           🪑 Sentite como en casa. Ya sea para una charla, una pausa o una mañana productiva.
         </p>
+
+        <div className="fotos">
+          <img src="/public/assets/home.jpg" alt="home" /> 
+        
+         </div> 
         <a
           href="/Menu"
           className=""

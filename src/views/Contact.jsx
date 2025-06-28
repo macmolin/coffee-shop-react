@@ -12,6 +12,12 @@ export default function Contact() {
         📧contacto@caffebrisa.com  <br />
         📱 Instagram: @caffebrisa  <br />
         📍 Visitános: Av. Libertador 2540, Buenos Aires</p>
+      
+      <div className="fotos">
+         <img src="/public/assets/telefono.jpg" alt="contactoTelefono" /> 
+        
+      </div>
+
       <p>Nuestro corazón late al ritmo del café... y de tu mensaje.</p>
     </div>
   );

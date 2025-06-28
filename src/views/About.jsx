@@ -15,6 +15,11 @@ export default function About() {
         trabajamos con productores locales y diseñamos cada bebida con dedicación.
       </p>
 
+      <div className="fotos">
+         <img src="/public/assets/cafe-espresso.jpg" alt="cafe" /> 
+        
+      </div>
+
       <p className="">
         Más que café. Somos <span className="italic">pausa, compañía y ritual</span>.
       </p>
