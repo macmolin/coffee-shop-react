@@ -2,7 +2,7 @@
 export default function Home() {
   return (
       <div className="bg-black/60 p-8 rounded-xl shadow-lg max-w-2xl text-center">
-        <h1 className="text-4xl font-bold mb-4">☕ Bienvenidos a Caffè Brisa</h1>
+        <h1 className="">☕ Bienvenidos a Caffè Brisa</h1>
         <p className="text-lg mb-4">
           Donde cada sorbo cuenta. Explorá nuestros cafés de origen, bebidas artesanales,
           blends exclusivos y opciones dulces para cada momento del día.

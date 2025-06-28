@@ -5,8 +5,6 @@ import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
 import Shop from './views/Shop';
-import Buscar from './views/Buscar';
-import Categorias from './views/Categorias';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {

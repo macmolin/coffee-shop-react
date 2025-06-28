@@ -1,6 +1,6 @@
 const Titulo = () => {
     return (
-        <div className="card">
+        <div className="">
             <h2></h2>
         </div>
     )           
