@@ -32,14 +32,14 @@ export default function Shop() {
       elementos.push(
         <div
           key={producto.id}
-          className=""
+          className="productoContainer"
         >
           <img
             src={producto.image}
             alt={producto.title}
             className=""
           />
-          <h2 className="">{producto.title}</h2>
+          <h2 className="productoTitulo">{producto.title}</h2>
           <p className="">
             {producto.description}
           </p>
@@ -56,16 +56,16 @@ export default function Shop() {
  
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center text-amber-800">🛍️ Nuestra Tienda</h1>      
+    <div className="">
+      <h1 className="">🛍️ Nuestra Tienda</h1>      
      
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className="productosFlex">
       {renderProductos()}
     </div>
     {carrito.length > 0 && (
-      <div className="mt-10 border-t pt-6">
-        <h2 className="text-2xl font-semibold mb-4 text-center">🛒 Carrito</h2>
-        <ul className="list-disc pl-6 text-gray-700">
+      <div className="">
+        <h2 className="">🛒 Carrito</h2>
+        <ul className="">
           {carrito.map((item, index) => (
             <li key={index}>{item.title} - ${item.price}</li>
           ))}
