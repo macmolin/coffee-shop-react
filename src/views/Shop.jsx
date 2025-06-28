@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { getProductos } from "../services/getProductos";
+import Titulo from "../components/Titulo";
 
 
 export default function Shop() {
@@ -57,11 +58,12 @@ export default function Shop() {
 
   return (
     <div className="">
-      <h1 className="">🛍️ Nuestra Tienda</h1>      
+    <Titulo titulo="Nuestra Tienda"/>      
      
     <div className="productosFlex">
       {renderProductos()}
     </div>
+
     {carrito.length > 0 && (
       <div className="">
         <h2 className="">🛒 Carrito</h2>

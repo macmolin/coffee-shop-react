@@ -1,8 +1,8 @@
-const Titulo = () => {
+const Formulario = () => {
     return (
         <div className="">
             <h2></h2>
         </div>
     )           
 }
-export default Titulo;
+export default Formulario;
