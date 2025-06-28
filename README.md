@@ -1,12 +1,34 @@
-# React + Vite
+# React + Alkemy
+# Trabajo practico Final
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La api a utilizar es https://fakestoreapi.com/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Requerimiento 🔧
 
-## Expanding the ESLint configuration
+  NodeJS 
+  Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instalación 🔧
+
+1- Para ello debes clonar el repositorio, ingresando a una terminal y ejecutando:
+
+git clone `https://github.com/macmolin/coffee-shop-react`
+
+2 - En la carpeta donde se encuentra "package.json" ejecutar en la terminal:
+
+npm install
+
+4 - (instalar axios)En la carpeta donde se encuentra "package.json" ejecutar en la terminal:
+
+npm install axios
+
+5- Una vez finalizado, para abrir el proyecto ejecutar:
+
+npm start
+
+Dependencias utilizadas
+
+  NPM
+  AXIOS
+
