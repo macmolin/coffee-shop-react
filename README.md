@@ -32,3 +32,7 @@ Dependencias utilizadas
     NPM
     AXIOS
 
+El trabajo practico es una web simple de una cafeteria con 4 menues: el inicio, el contacto, la tienda y la informacion sobre la cafeteria.
+Dentro de la tienda, se ejecuta el endpoint de getProductos a una api publica para poder hacer un llamado.
+Cada producto se muestra en una grilla.
+Se muestra el loading con la informacion cargando y luego cuando se obtiene la respuesta, se renderiza en la web.
